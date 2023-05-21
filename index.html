@@ -4,13 +4,370 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>My Portfolio</title>
 </head>
 <body>
-    <h1>My Own Portfolio</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio aut ea exercitationem, delectus quasi accusamus eum iste accusantium repellat id voluptates numquam quibusdam cum quae est, maxime fuga magnam vitae!</p>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, in? Laudantium architecto quisquam inventore iste maiores eaque recusandae adipisci dolorum error fugit odit hic repudiandae cumque voluptas, a dolores beatae?</p>
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
+          <strong>Portfolio</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <div>
+            <img src="assets/images/avatar.jpg" width="60px" height="60px" class="img-fluid rounded-circle mx-auto my-3 d-block" alt="">
+          </div>
+          <h1 class="fw-light">Full-Stack Developer, mountain climber, nature lover</h1>
+          <p class="lead text-muted">I’m Salim, I'm able to Create robust and interactive web applications. With a strong understanding of PHP frameworks and database management, they deliver high-quality solutions that effectively meet client requirements.</p>
+          <div>
+            <a href="https://www.linkedin.com/in/salimessadek/" class="m-2" target="_blank"><i class="fa fa-2 fa-linkedin-square" aria-hidden="true"></i></i>
+            </a>
+            <a href="https://github.com/sessadek" class="m-2" target="_blank"><i class="fa fa-2 fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/salimessadek/"  class="m-2" target="_blank"><i class="fa fa-2 fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <div class="text-center mt-4">
+            <a class="btn btn-danger m-2" href="CV-ESSADEK-Salim-Fullstack-Drupal-Developer.pdf" download=>
+              <i class="fa fa-download mr-1" aria-hidden="true"></i>
+              Download CV 
+            </a>
+            <a href="mailto:salim.essaek@gmail.com" class="btn btn-dark m-2">
+              <i class="fa fa-paper-plane mr-1" aria-hidden="true"></i>
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-4">
+          <i class="h2 fa fa-briefcase" aria-hidden="true"></i>
+          <h2 class="text-center">Some Of My Works</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-masonry='{"percentPosition": true }'>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/05/realisation-web-idealcoms-ez-wheel.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">ez-Wheel</h3>
+                <p class="card-text">La première roue électrique autonome</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.ez-wheel.com" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/06/idealcoms-realisation-web-chalvignac.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Groupe Chalvignac</h3>
+                <p class="card-text">Matériel viticole et vinicole</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.groupe-chalvignac.fr/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/06/rouby-industrie-realisation-web-idealcoms.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Rouby Industrie</h3>
+                <p class="card-text">Equipements hydrauliques</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.rouby-industrie.fr/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/06/jige-international-realisation-web-idealcoms.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Jige International</h3>
+                <p class="card-text">Equipements de dépannage</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Wordpress</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.jige-international.com" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/08/idealcoms-realisation-web-T2M.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">T2M Logistique</h3>
+                <p class="card-text">Services de logistique</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.t2m-logistique.fr/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/08/idealcoms-realisation-web-prefatec.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Prefatec France</h3>
+                <p class="card-text">Manufacturer of multi-energy kits.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.prefatecfrance.fr/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2017/07/idealcoms-etude-de-cas-festival-bd-angouleme.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Festival de la BD d'Angoulême</h3>
+                <p class="card-text">Angoulême Comic Strip Festival.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.bdangouleme.com/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.idealcoms.net/wp-content/uploads/2019/08/idealcoms-realisation-web-ruchers-du-gue.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Les Ruchers du Gué</h3>
+                <p class="card-text">Production and distribution of honey.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Laravel</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.ruchersdugue.fr/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/grand2.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">inwi application DIR IDDIK</h3>
+                <p class="card-text">In order to reach the widest audience possible, we needed to create an application capable of adapting to a wide range of devices, including tablets, mobile phones, and more.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Symphony</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://diriddik.ma" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/bcme-capital-gestion-privee_big_2.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">BMCE CAPITAL Gestion Privée</h3>
+                <p class="card-text">Create a responsive design website that enables BMCE Capital Gestion Privé to have an international presence.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Drupal</span>
+                  <span class="badge bg-secondary mr-1 mb-1">responsive design</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.bmcecapitalgestionprivee.com/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/fawatir-1.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Attijariwafa bank : Fawatir </h3>
+                <p class="card-text">Creating a responsive design website presenting the FAWATIR service, its functionality, benefits, and the various payment points available to its target audience. Users can access comprehensive information from different devices such as mobile, tablet, and desktop.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Drupal</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://fawatir.ma/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/visuel-ref-bmce-capital.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">BMCE Capital</h3>
+                <p class="card-text">A clear hierarchy for easy navigation. A very clean, aesthetic, and trendy design that reflects the international image of the Group. A responsive design website that can be accessed on tablets and mobile devices.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Drupal</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://www.bmcecapital.com/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/WAFACASH_2352.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">Wafacash</h3>
+                <p class="card-text">Create a consumer-oriented website aimed at providing information on all Wafacash products.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Drupal</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="http://event.sahamassurance.com/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/saham-event-2017.png" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">SAHAM Finances «Le nouveau modèle africain»</h3>
+                <p class="card-text">CA responsive one-page mini website that includes essential information for an event like this, such as the event registration form, dates, location, program, and a presentation of the speakers.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">Wordpress</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="http://event.sahamassurance.com/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/bkg-site-internet-408x233_.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">BMCE Capital Gestion</h3>
+                <p class="card-text">Create an institutional and transactional internet portal that aligns with BMCE Capital Gestion's strategy.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">DRUPAL</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://clubafriquedeveloppement.com/fr" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/awb-club-dev.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">CLUB AFRIQUE DÉVELOPPEMENT</h3>
+                <p class="card-text">A systemic and accessible management of users, content, events, and the B2B platform through a responsive design solution. Club Afrique Développement is now a uniquely positioned networking platform on an African scale. Over 1300 invitations were issued for the 4th edition of the International Africa Development Forum, scheduled for February 25th and 26th, 2016, in just two weeks.</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">DRUPAL</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="https://clubafriquedeveloppement.com/fr" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="https://www.pyxicom.com/files/images/site-consumar-responsive-drupal1.jpg" width="100%" height="225" alt="">
+              <div class="card-body">
+                <h3 class="h5 card-title">COSUMAR</h3>
+                <p class="card-text">Development of a responsive and multilingual website that brings together and details all aspects of the corporate communication of the Cosumar group. The target audience for the client, both in Morocco and foreign investors, have comprehensive access to information through different platforms (mobile, tablet, and desktop).</p>
+                <div class="my-3">
+                  <span class="badge bg-secondary mr-1 mb-1">DRUPAL</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="http://www.cosumar.co.ma/" target="_blank" class="btn btn-success w-100">View</a>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2023 @ Salim ESSADEK</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li><a href="https://www.linkedin.com/in/salimessadek/" class="text-muted m-2" target="_blank"><i class="fa fa-2 fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/sessadek" class="text-muted m-2" target="_blank"><i class="fa fa-2 fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/salimessadek/"  class="text-muted m-2" target="_blank"><i class="fa fa-2 fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 </html>
